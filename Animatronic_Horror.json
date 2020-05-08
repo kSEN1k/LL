@@ -1,0 +1,123 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Retroverse",
+				"abbreviation": "LL",
+				"full": "Lasers & Liches",
+				"url": "",
+				"authors": [
+					"Chris Lock",
+					"Lluis Abadias"
+				],
+				"convertedBy": [
+					"kSEN"
+				]
+			}
+		],
+		"dateAdded": 1588973845,
+		"dateLastModified": 1588973845
+	},
+	"monster": [
+		{
+			"name": "Animatronic Horror",
+			"shortName": true,
+			"source": "Retroverse",
+			"page": 247,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Machine"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 32",
+				"average": 68
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 9,
+			"con": 18,
+			"int": 10,
+			"wis": 6,
+			"cha": 6,
+			"skill": {
+				"intimidation": "+0"
+			},
+			"senses": [
+				"Blindsight 10 ft. Passive Perception 8"
+			],
+			"passive": 8,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Can not speak but their pilot can speak trough a speaker"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Pilot",
+					"entries": [
+						"A small creature can crawl inside this machine and pilot it like a mech. They can not be harmed while inside this suit, but are ejected if the Animatronic Horror reaches 0 hit points/"
+					]
+				},
+				{
+					"name": "Mechanical Power",
+					"entries": [
+						"The Animatronic Horror has advantage on any Strength checks to resist being {@condition grappled} or {@condition restrained}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Animatronic Horror make 2 greatclub attacks"
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d8 + 5}) damage damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"grassland",
+				"hill",
+				"urban"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "200a665994cd221787a0271332a3e22a"
+		}
+	]
+}
